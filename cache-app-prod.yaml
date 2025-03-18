@@ -1,3 +1,4 @@
+environment: prod
 eureka:
   client:
     serviceUrl:
