@@ -1,3 +1,4 @@
+environment: develop
 spring:
   cloud:
     gateway:

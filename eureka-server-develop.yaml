@@ -1,3 +1,4 @@
+environment: develop
 eureka:
   instance:
     prefer-ip-address: true
