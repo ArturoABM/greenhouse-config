@@ -6,11 +6,11 @@ spring:
         - id: account-app
           uri: http://localhost:8081
           predicates:
-            - Before=2017-01-20T17:42:47.789-07:00[America/Denver]
+            - Method=GET,POST
         - id: cache-app
           uri: http://localhost:8082
           predicates:
-            - Before=2017-01-20T17:42:47.789-07:00[America/Denver]
+            - Method=GET,POST
 eureka:
   client:
     serviceUrl:
