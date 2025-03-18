@@ -1,3 +1,4 @@
+environment: stage
 eureka:
   instance:
     prefer-ip-address: true
