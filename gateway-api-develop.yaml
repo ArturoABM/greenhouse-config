@@ -1,4 +1,11 @@
 environment: develop
+spring:
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lowerCaseServiceId: true
 eureka:
   client:
     serviceUrl:
