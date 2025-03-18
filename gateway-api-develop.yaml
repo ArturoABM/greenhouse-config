@@ -2,6 +2,12 @@ environment: develop
 spring:
   cloud:
     gateway:
+      global-cors:
+        corsConfigurations:
+          '[/**]':
+            allowedOrigins: "*"
+            allowedMethods: "*"
+            allowedHeaders: "*"
       routes:
         - id: account-app
           uri: http://localhost:8081
