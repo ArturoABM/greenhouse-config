@@ -1,4 +1,5 @@
 environment: develop
+vesion: v1
 spring:
   cloud:
     gateway:
