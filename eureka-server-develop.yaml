@@ -1,5 +1,6 @@
 environment: develop
-vesion: v1
+api: 
+  version: v1
 eureka:
   instance:
     hostname: localhost

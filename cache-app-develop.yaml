@@ -1,5 +1,6 @@
 environment: develop
-vesion: v1
+api: 
+  version: v1
 spring:  
   jpa:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
